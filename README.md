@@ -8,11 +8,11 @@ Rocketseat NLW Return Origin, projeto consiste em uma aplicação desenvolvida e
 
 ## 📋 Índice
 
-- [Sobre](#Projeto-final-DoctorCare)
-- [Tecnologias utilizadas](#-Tecnologias-utilizadas)
-- [Como executar o projeto](#-Como-executar-o-projeto)
-- [Construído com](#-Construído-com)
-- [Autores](#Autores)
+- [Sobre](#projeto-final-doctorcare)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Como executar o projeto](#-como-executar-o-projeto)
+- [Construído com](#%EF%B8%8F-construído-com)
+- [Autores](#%EF%B8%8F-autores)
 
 --- 
 
