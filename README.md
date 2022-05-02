@@ -48,11 +48,3 @@ Gostaria de acessar e testar a aplicação ? basta clicar [aqui](https://kifel.g
 
 * Conte a outras pessoas sobre este projeto 📢
 * Obrigado por ver esse projeto ❤️
-
-
-
----
-
-Elaborado por [João Victor de Mello Pereira](https://github.com/kifel)
-
----
