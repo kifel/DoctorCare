@@ -12,7 +12,7 @@ Rocketseat NLW Return Origin, projeto consiste em uma aplicação desenvolvida e
 - [Tecnologias utilizadas](#-Tecnologias-utilizadas)
 - [Como executar o projeto](#-Como-executar-o-projeto)
 - [Construído com](#-Construído-com)
-- [Autores](#-Autores)
+- [Autores](#Autores)
 
 --- 
 
@@ -50,3 +50,5 @@ Gostaria de acessar e testar a aplicação ? basta clicar [aqui](https://kifel.g
 
 * Conte a outras pessoas sobre este projeto 📢
 * Obrigado por ver esse projeto ❤️
+
+--- 
