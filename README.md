@@ -2,16 +2,17 @@
 
 Rocketseat NLW Return Origin, projeto consiste em uma aplicação desenvolvida em html, css e javascript.
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
 --- 
 
 ## 📋 Índice
 
-- [Sobre](#-Projeto-final-DoctorCare)
+- [Sobre](#Projeto-final-DoctorCare)
 - [Tecnologias utilizadas](#-Tecnologias-utilizadas)
-- [como executar o projeto](#-Como-executar-o-projeto)
-- [Como executar o projeto](#-Como-executar-o-projeto)
-- [Construído com](#-Construído-com)
-- [Autores](#-Autores)
+- [Como executar o projeto](#Como-executar-o-projeto)
+- [Construído com](#Construído-com)
+- [Autores](#Autores)
 
 --- 
 
