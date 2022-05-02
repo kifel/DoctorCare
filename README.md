@@ -6,8 +6,9 @@ Rocketseat NLW Return Origin, projeto consiste em uma aplicação desenvolvida e
 
 ## 📋 Índice
 
-- [Sobre](#-Projeto-final-DoctorCare )
+- [Sobre](#-Projeto-final-DoctorCare)
 - [Tecnologias utilizadas](#-Tecnologias-utilizadas)
+- [como executar o projeto](#-Como-executar-o-projeto)
 - [Como executar o projeto](#-Como-executar-o-projeto)
 - [Construído com](#-Construído-com)
 - [Autores](#-Autores)
@@ -40,7 +41,7 @@ Gostaria de acessar e testar a aplicação ? basta clicar [aqui](https://kifel.g
 
 * **João Victor de Mello Pereira** - *Desenvolvimento do código* - [KifelG](https://github.com/kifel)
 
-* **Vale Ressaltar que o código foi desenvolvido na NLW Return da [@RocketSeat](https://github.com/Rocketseat)
+* **Vale Ressaltar que o código foi desenvolvido na NLW Return da [@RocketSeat](https://github.com/Rocketseat)**
 
 --- 
  
