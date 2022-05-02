@@ -34,14 +34,16 @@ Gostaria de acessar e testar a aplicação ? basta clicar [aqui](https://kifel.g
 
 * [Visual Studio Code](https://code.visualstudio.com/) - ferramenta de desenvolvimento
 
+--- 
+
 ## ✒️ Autores
 
 * **João Victor de Mello Pereira** - *Desenvolvimento do código* - [KifelG](https://github.com/kifel)
 
 * **Vale Ressaltar que o código foi desenvolvido na NLW Return da [@RocketSeat](https://github.com/Rocketseat)
+
+--- 
  
-
-
 ## 🎁 Expressões de gratidão
 
 * Conte a outras pessoas sobre este projeto 📢
