@@ -164,7 +164,7 @@ nav {
     position: fixed;
     top: 0;
     left: 50%;
-    transform: translatex(-50%)
+    transform: translateX(-50%)
 }
 
 nav .wrapper {
