@@ -4,6 +4,37 @@ onScroll()
 function onScroll() {
     showNavOnScroll()
     showBackToTopButtonOnScroll()
+
+    activateMenuAtCurrentSection(home)
+    activateMenuAtCurrentSection(services)
+    activateMenuAtCurrentSection(about)
+    activateMenuAtCurrentSection(contact)
+}
+
+function activateMenuAtCurrentSection(section) {
+    const targetLine = scrollY + innerHeight / 2
+
+    // verificar se a seção passou da linha
+    const sectionTop = section.offsetTop
+    const sectionHeight = section.offsetHeight
+
+    const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
+
+    const sectionEndAt = sectionTop + sectionHeight
+
+    const sectionEndPassedTargetLine = sectionEndAt <= targetLine
+
+    const sectionBoundaries = sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetLine
+
+    const sectionId = section.getAttribute('id')
+    
+    const menuElement = document.querySelector(`.menu a[href*=${sectionId}]`)
+
+    menuElement.classList.remove('active')
+    
+    if(sectionBoundaries) {
+        menuElement.classList.add('active')
+    }
 }
 
 function showNavOnScroll() {
