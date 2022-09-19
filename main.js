@@ -1,70 +1,72 @@
-window.addEventListener('scroll', onScroll)
+window.addEventListener("scroll", onScroll);
 
-onScroll()
+onScroll();
+
 function onScroll() {
-    showNavOnScroll()
-    showBackToTopButtonOnScroll()
+  showNavOnScroll();
+  showBackToTopButtonOnScroll();
 
-    activateMenuAtCurrentSection(home)
-    activateMenuAtCurrentSection(services)
-    activateMenuAtCurrentSection(about)
-    activateMenuAtCurrentSection(contact)
+  activateMenuAtCurrentSection(home);
+  activateMenuAtCurrentSection(services);
+  activateMenuAtCurrentSection(about);
+  activateMenuAtCurrentSection(contact);
 }
 
 function activateMenuAtCurrentSection(section) {
-    const targetLine = scrollY + innerHeight / 2
+  const targetLine = scrollY + innerHeight / 2;
 
-    // verificar se a seção passou da linha
-    const sectionTop = section.offsetTop
-    const sectionHeight = section.offsetHeight
+  // verificar se a seção passou da linha
+  const sectionTop = section.offsetTop;
+  const sectionHeight = section.offsetHeight;
 
-    const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
+  const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop;
 
-    const sectionEndAt = sectionTop + sectionHeight
+  const sectionEndAt = sectionTop + sectionHeight;
 
-    const sectionEndPassedTargetLine = sectionEndAt <= targetLine
+  const sectionEndPassedTargetLine = sectionEndAt <= targetLine;
 
-    const sectionBoundaries = sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetLine
+  const sectionBoundaries =
+    sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetLine;
 
-    const sectionId = section.getAttribute('id')
-    
-    const menuElement = document.querySelector(`.menu a[href*=${sectionId}]`)
+  const sectionId = section.getAttribute("id");
 
-    menuElement.classList.remove('active')
-    
-    if(sectionBoundaries) {
-        menuElement.classList.add('active')
-    }
+  const menuElement = document.querySelector(`.menu a[href*=${sectionId}]`);
+
+  menuElement.classList.remove("active");
+
+  if (sectionBoundaries) {
+    menuElement.classList.add("active");
+  }
 }
 
 function showNavOnScroll() {
-    if (scrollY > 0) {
-        navigation.classList.add('scroll')
-    } else {
-        navigation.classList.remove('scroll')
-    }
+  if (scrollY > 0) {
+    document.getElementById("navigation").classList.add("scroll");
+  } else {
+    document.getElementById("navigation").classList.remove("scroll");
+  }
 }
 
 function showBackToTopButtonOnScroll() {
-    if (scrollY > 400) {
-        backToTopButton.classList.add('show')
-    } else {
-        backToTopButton.classList.remove('show')
-    }
+  if (scrollY > 400) {
+    document.getElementById("backToTopButton").classList.add("show");
+  } else {
+    document.getElementById("backToTopButton").classList.remove("show");
+  }
 }
 
 function openMenu() {
-    document.body.classList.add('menu-expanded')
+  document.body.classList.add("menu-expanded");
 }
 
 function closeMenu() {
-    document.body.classList.remove('menu-expanded')
+  document.body.classList.remove("menu-expanded");
 }
 
 ScrollReveal({
-    origin: 'top',
-    distance: '30px',
-    duration: 700,
+  origin: "top",
+  distance: "30px",
+  duration: 700,
 }).reveal(`#home, 
     #home img, 
     #home .stats, 
@@ -76,4 +78,4 @@ ScrollReveal({
     #about .content,
     #contact,
     #contact header,
-    #contact .content`)
+    #contact .content`);
